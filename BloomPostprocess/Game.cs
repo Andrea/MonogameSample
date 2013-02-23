@@ -19,7 +19,7 @@ namespace BloomPostprocess
     /// Sample showing how to implement a bloom postprocess,
     /// adding a glowing effect over the top of an existing scene.
     /// </summary>
-    public class BloomPostprocessGame : Microsoft.Xna.Framework.Game
+    public class BloomPostprocessGame : Game
     {
         GraphicsDeviceManager graphics;
 
@@ -27,15 +27,15 @@ namespace BloomPostprocess
 
         int bloomSettingsIndex = 0;
 
-        SpriteBatch spriteBatch;
-        SpriteFont spriteFont;
-        Texture2D background;
-        Model model;
+        private SpriteBatch spriteBatch;
+		private SpriteFont spriteFont;
+		private Texture2D background;
+		private Model model;
 
-        KeyboardState lastKeyboardState = new KeyboardState();
-        GamePadState lastGamePadState = new GamePadState();
-        KeyboardState currentKeyboardState = new KeyboardState();
-        GamePadState currentGamePadState = new GamePadState();
+		private KeyboardState lastKeyboardState = new KeyboardState();
+		private GamePadState lastGamePadState = new GamePadState();
+		private KeyboardState currentKeyboardState = new KeyboardState();
+		private GamePadState currentGamePadState = new GamePadState();
 
 
         public BloomPostprocessGame()
@@ -240,23 +240,4 @@ namespace BloomPostprocess
 
         #endregion
     }
-
-
-    #region Entry Point
-
-    /// <summary>
-    /// The main entry point for the application.
-    /// </summary>
-    static class Program
-    {
-        static void Main()
-        {
-            using (BloomPostprocessGame game = new BloomPostprocessGame())
-            {
-                game.Run();
-            }
-        }
-    }
-
-    #endregion
 }
