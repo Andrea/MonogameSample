@@ -20,3 +20,4 @@ cachefile*.*
 src/packages
 *.ncrunchsolution
 *.pdb
+*.userpref*
