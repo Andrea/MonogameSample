@@ -12,8 +12,8 @@ namespace BloomPostprocess
 		public override void FinishedLaunching (UIApplication app)
 		{
 			// Fun begins..
-			BloomPostprocessGame game = new BloomPostprocessGame();
-            game.Run();
+			var game = new BloomPostprocess.BloomPostprocessGame();
+			game.Run();
 		}
 
 		/// <summary>

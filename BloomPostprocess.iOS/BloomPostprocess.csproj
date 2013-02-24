@@ -111,4 +111,30 @@
   <ItemGroup>
     <Folder Include="Content\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Content\iOS\Content\BloomCombine.xnb">
+      <Link>Content\BloomCombine.xnb</Link>
+    </Content>
+    <Content Include="..\Content\iOS\Content\engine_diff_tex_0.xnb">
+      <Link>Content\engine_diff_tex_0.xnb</Link>
+    </Content>
+    <Content Include="..\Content\iOS\Content\GaussianBlur.xnb">
+      <Link>Content\GaussianBlur.xnb</Link>
+    </Content>
+    <Content Include="..\Content\iOS\Content\hudFont.xnb">
+      <Link>Content\hudFont.xnb</Link>
+    </Content>
+    <Content Include="..\Content\iOS\Content\sunset.xnb">
+      <Link>Content\sunset.xnb</Link>
+    </Content>
+    <Content Include="..\Content\iOS\Content\tank.xnb">
+      <Link>Content\tank.xnb</Link>
+    </Content>
+    <Content Include="..\Content\iOS\Content\turret_alt_diff_tex_0.xnb">
+      <Link>Content\turret_alt_diff_tex_0.xnb</Link>
+    </Content>
+    <Content Include="..\Content\iOS\Content\BloomExtract.xnb">
+      <Link>Content\BloomExtract.xnb</Link>
+    </Content>
+  </ItemGroup>
 </Project>
